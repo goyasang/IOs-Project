@@ -14,6 +14,7 @@
 		AEA61FEA1DC788F000400747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA61FE81DC788F000400747 /* Main.storyboard */; };
 		AEA61FEC1DC788F000400747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA61FEB1DC788F000400747 /* Assets.xcassets */; };
 		AEA61FEF1DC788F000400747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA61FED1DC788F000400747 /* LaunchScreen.storyboard */; };
+		AEF6CDB61DD8EC1D00311857 /* mydatabase.db in Resources */ = {isa = PBXBuildFile; fileRef = AEF6CDB51DD8EC1D00311857 /* mydatabase.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AEA61FEB1DC788F000400747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEA61FEE1DC788F000400747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEA61FF01DC788F000400747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF6CDB51DD8EC1D00311857 /* mydatabase.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mydatabase.db; path = ../../../mydatabase.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		AEA61FDE1DC788F000400747 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				AEF6CDB41DD8EBFE00311857 /* Database */,
 				AE4F0E011DD220C5009C7ACB /* Images */,
 				AE4F0E001DD220B1009C7ACB /* Nibs */,
 				AEA61FE21DC788F000400747 /* AppDelegate.h */,
@@ -98,6 +101,14 @@
 				AEA61FE01DC788F000400747 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEF6CDB41DD8EBFE00311857 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				AEF6CDB51DD8EC1D00311857 /* mydatabase.db */,
+			);
+			name = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF6CDB61DD8EC1D00311857 /* mydatabase.db in Resources */,
 				AEA61FEF1DC788F000400747 /* LaunchScreen.storyboard in Resources */,
 				AEA61FEC1DC788F000400747 /* Assets.xcassets in Resources */,
 				AEA61FEA1DC788F000400747 /* Main.storyboard in Resources */,
