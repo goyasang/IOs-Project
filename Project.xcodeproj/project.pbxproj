@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE4F0E041DD22204009C7ACB /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F0E031DD22204009C7ACB /* SearchViewController.m */; };
 		AEA61FE11DC788F000400747 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA61FE01DC788F000400747 /* main.m */; };
 		AEA61FE41DC788F000400747 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA61FE31DC788F000400747 /* AppDelegate.m */; };
 		AEA61FE71DC788F000400747 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA61FE61DC788F000400747 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE4F0E021DD22204009C7ACB /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		AE4F0E031DD22204009C7ACB /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		AEA61FDC1DC788F000400747 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA61FE01DC788F000400747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEA61FE21DC788F000400747 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE4F0E001DD220B1009C7ACB /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				AEA61FED1DC788F000400747 /* LaunchScreen.storyboard */,
+				AEA61FE81DC788F000400747 /* Main.storyboard */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		AE4F0E011DD220C5009C7ACB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		AEA61FD31DC788F000400747 = {
 			isa = PBXGroup;
 			children = (
@@ -58,15 +77,17 @@
 		AEA61FDE1DC788F000400747 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				AE4F0E011DD220C5009C7ACB /* Images */,
+				AE4F0E001DD220B1009C7ACB /* Nibs */,
 				AEA61FE21DC788F000400747 /* AppDelegate.h */,
 				AEA61FE31DC788F000400747 /* AppDelegate.m */,
 				AEA61FE51DC788F000400747 /* ViewController.h */,
 				AEA61FE61DC788F000400747 /* ViewController.m */,
-				AEA61FE81DC788F000400747 /* Main.storyboard */,
 				AEA61FEB1DC788F000400747 /* Assets.xcassets */,
-				AEA61FED1DC788F000400747 /* LaunchScreen.storyboard */,
 				AEA61FF01DC788F000400747 /* Info.plist */,
 				AEA61FDF1DC788F000400747 /* Supporting Files */,
+				AE4F0E021DD22204009C7ACB /* SearchViewController.h */,
+				AE4F0E031DD22204009C7ACB /* SearchViewController.m */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -152,6 +173,7 @@
 			files = (
 				AEA61FE71DC788F000400747 /* ViewController.m in Sources */,
 				AEA61FE41DC788F000400747 /* AppDelegate.m in Sources */,
+				AE4F0E041DD22204009C7ACB /* SearchViewController.m in Sources */,
 				AEA61FE11DC788F000400747 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +325,7 @@
 				AEA61FF51DC788F000400747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
